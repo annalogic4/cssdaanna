@@ -1,0 +1,48 @@
+/* Aula inicial :D */
+body {
+    /* background: #f8bbd8; */
+     background-image: url('https://images.pexels.com/photos/36753/flower-purple-lical-blosso.jpg');
+     background-size: auto 100vh;
+     font-family: Arial;
+     height: 100vh;
+   }
+   /*.menu {
+     background-color: #f8bbd8;
+   }  o ponto é para quando tiver class (ou seja, vários em uma coisa)
+   se for id (Algo único para uma tag), usar o #*/
+   
+   .menu {
+     background-color: #f8bbd8;
+   }
+   a {
+     color: teal;
+     text-decoration: none; /*tira o sublinhado que vem junto*/
+   } 
+   
+   a:hover {
+   
+     text-decoration: underline;
+   } /*pseudoclasse para quando o mouse passar por cima*/
+   
+   .menu ul {
+     /*força todo mundo virar coluna*/
+     display: flex;
+     /*espaça todos space-between, só nas ques estão no meio; space-around fica proporcional
+     só funciona em conjunto com outra*/
+     justify-content: space-around;
+   }
+   
+   .menu li {
+     /*todos os listen item dentro do menu*/
+     list-style: none;
+   }
+   
+   .site-subtitle,
+   .site-title{
+     color: whitesmoke;
+     text-align: center;
+   }
+   
+   .site-subtitle{
+     font-style: italic;
+   }
